@@ -370,7 +370,7 @@ p.boxText {
 
 .caseSubTitle {
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     font-size: 1.2em;
 }
 .listTitle {
@@ -483,9 +483,16 @@ ol {
 
 @media only screen and (max-width: 1400px) {
     .heroKick {
- 
         top: -72vh;
-
+}
+.geoAciveCaseStudy {
+    width: 100%;
+}
+.caseStudy {
+    margin-top: -23%;
+}
+.caseStudyImg {
+    margin: 5% 0%;
 }
 }
 
@@ -498,8 +505,10 @@ ol {
     .gif {
         top: -250px;
 }
+.geoAciveCaseStudy {
+    width: 100%;
 }
-
+}
 @media only screen and (max-width: 1000px) {
 
     body {
@@ -527,8 +536,10 @@ ol {
 .hig {
     margin-right: 5%;
 }
+.geoAciveCaseStudy {
+    width: 100%;
 }
-
+}
 @media only screen and (max-width: 768px) {
 body {
     width: 112vw;
@@ -563,7 +574,10 @@ body {
 h2 {
     font-size: 50px;
 }
+.geoAciveCaseStudy {
+    width: 100%;
 
+}
 }
 @media only screen and (max-width: 375px) {
     body {
@@ -601,5 +615,15 @@ h2 {
     h2 {
         font-size: 50px;
     }
+    .geoAciveCaseStudy {
+        width: 100%;
   
     }
+    .caseStudy {
+        margin-top: -32%;
+    }
+    .caseStudyImg {
+        height: 17em;
+        margin: 10% 0%;
+}
+}
