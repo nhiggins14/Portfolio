@@ -256,14 +256,16 @@ br {
     background-color:  #4C57FF;
 }
 
+.geoBlockInactive {
+    display: none;
+}
+
+
 .geoAciveCaseStudy {
     background-size: cover;
-    height: 500vh;
+    height: auto;
     width: 90vw;
-    /* background-color: #4C57FF; */
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+    display: block;
     border: 10px solid black;   
     background-color:  #FFD92A;
 
@@ -323,34 +325,85 @@ p.boxText {
     display: none;
 }
 
-.caseStudyText {
-    margin-top: 2%;
+.caseStudy {
+    margin-top: -16%;
     display: none;
     position: relative;
-    height: 101%;
+    height: auto;
     background-color: #FFD92A;
-    top: -10%;
     padding: 17%;
     font-size: 1.6em;
     color: black;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+}
+
+.exitOut {
+    font-weight: bolder;
+    color: black;
+    font-size: 3em;
+    text-align: right;
+    border: 1px black;
+    position: sticky;
+    margin-right: -18%;
+    margin-top: -20%;
+}
+.exitOut:hover {
+    cursor: pointer;
+}
+.caseStudyText {
+    font-weight: lighter;
+}
+
+.caseStudyTitle {
+    color: black;
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: right;
+    position: relative;
+    margin: 8% 0;
 }
 
 
+
 .caseSubTitle {
-    font-weight: bold;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2em;
 }
 .listTitle {
     font-weight: bold;
 }
+
+.caseStudyText p{
+    margin: 6% 0; 
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+.caseImgCont {
+    display: flex;
+    justify-content: center;
+}
 .caseStudyImg {
-    width: 100%;
-    height: 80%;
+    position: relative;
+    display: flex;
+    height: 31em;
     padding: 2%;
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    margin: 10% 0%;
 }
 
 .persona1Jen {
@@ -390,7 +443,7 @@ p.boxText {
 }
 
 .prototypeAddition {
-    background-image: url("../images/UserResearchResults.png");
+    background-image: url("../images/Prototyping.png");
 }
 .userTestingResults {
     background-image: url("../images/UserResearchResults.png");
@@ -405,16 +458,25 @@ p.boxText {
 }
 
 .designQuoteCont {
-    border: 1px solid black;
+    border: 5px solid black;
     color: black;
     text-align: center;
+    height: 15%;
+    padding: 2%;
+    margin: 4% 0 6%;
 }
 
+#IDEAOquote {
+    padding: 0.5%;
+    font-weight: 900;
+    font-size: 1.5em;
+}
 
-
-
-
-
+#prototypeLink {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
 
 
 
